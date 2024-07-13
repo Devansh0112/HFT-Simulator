@@ -28,9 +28,3 @@ void MarketDataGenerator::generateMarketData(const std::string& filename, int in
 
     file.close();
 }
-
-int main() {
-    MarketDataGenerator generator;
-    generator.generateMarketData("market_data.csv", 1000);
-    return 0;
-}
